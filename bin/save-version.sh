@@ -25,7 +25,7 @@ VERSION=${IMPALA_VERSION}
 GIT_HASH=$(git rev-parse HEAD 2> /dev/null)
 if [ -z $GIT_HASH ]
 then
-  GIT_HASH="Could not obtain git hash"
+  GIT_HASH=08a04d2495c2fb0968917ff29c37b08b7bea0a1f
 fi
 
 BUILD_TIME=`date`
